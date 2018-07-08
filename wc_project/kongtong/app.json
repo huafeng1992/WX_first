@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/About/About"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "信贷",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectTextColor": "White",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_pressed.png"
+      },
+      {
+        "pagePath": "pages/About/About",
+        "text": "关于我们",
+        "iconPath": "images/ic_join_normal.png",
+        "selectedIconPath": "images/ic_join_pressed.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

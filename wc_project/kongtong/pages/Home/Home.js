@@ -19,13 +19,31 @@ Page({
    */
   onLoad: function (options) {
     console.log("hello")
+
+    this.swiperWidth();
+
   },
   onSwiperTap: function(event) {
     console.log(event)
     wx.showToast({
       title: event.target.id + ""
     })
-  }
+  },
 
-  
+  // 获取并设置swiper的宽度
+  swiperWidth: function() {
+    // 获取当前设备信息
+    var that = this;
+    var width = 220;
+    wx.getSystemInfo({
+      success: function (res) {
+        console.log(res);
+        that.setData({
+          clientHeight: res.windowWidth / 375 * width
+        });
+        console.log(res.windowWidth / 375);
+        console.log(res.windowWidth / 375 * width);
+      }
+    })
+  }
 })

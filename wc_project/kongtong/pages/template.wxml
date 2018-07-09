@@ -1,0 +1,4 @@
+<!--pages/template.wxml-->
+<template name="header">
+    <view >测试</view>
+</template>

@@ -11,7 +11,27 @@ Page({
       {url:'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',id:"0"},
       {url:'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',id: "1"},
       {url:'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',id:"2"}
+    ],
+
+    proList: [
+      {
+        img: "/images/pro_01.jpg",
+        title: "test",
+        desc: "test"
+      },
+      {
+        img: "/images/pro_02.jpg",
+        title: "test",
+        desc: "test"
+      },
+      {
+        img: "/images/pro_03.jpg",
+        title: "test",
+        desc: "test"
+      }
     ]
+
+
   },
 
   /**

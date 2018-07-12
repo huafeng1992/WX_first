@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/Home/Home",
-    "pages/About/About"
+    "pages/About/About",
+    "pages/Mine/Mine"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,6 +22,12 @@
       {
         "pagePath": "pages/About/About",
         "text": "关于我们",
+        "iconPath": "images/ic_join_normal.png",
+        "selectedIconPath": "images/ic_join_pressed.png"
+      },
+      {
+        "pagePath": "pages/Mine/Mine",
+        "text": "我的",
         "iconPath": "images/ic_join_normal.png",
         "selectedIconPath": "images/ic_join_pressed.png"
       }

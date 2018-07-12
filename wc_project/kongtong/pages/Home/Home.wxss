@@ -1,5 +1,5 @@
 /* pages/Home/Home.wxss */
- swiper{
+swiper{
   width: 100%;
 } 
 swiper image{
